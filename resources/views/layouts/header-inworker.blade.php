@@ -6,12 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
 </head>
 <body>
 
     <div class="container-fluid" >
         <div class="header">
             <div class="topnav">
+
                 <div class="brand">
                     <a href="" style="text-decoration: none;">
                         <div class="brand-section">
@@ -47,6 +49,7 @@
                         </div>
                     </div>
                 </div>
+            {{--</div>--}}
             </div>
         </div>
         <div class="float-header">
@@ -129,7 +132,7 @@
                         </div>
                     </div>
                     <div class="mini-search" href="">
-                        <input type="text" placeholder="Search.." name="search">
+                        <input type="text" placeholder="Search.." name="mini-search">
                         <button type="submit" >Найти</button>
                     </div>
                 </div>
@@ -200,18 +203,109 @@
             <div class="MainSelects">
                 <div class="left-main">
                     <div class="chapter">
-                        {{--<h3>Работа в компаниях Казахстана</h3>--}}
+                        <h3>Работа в компаниях Казахстана</h3>
                     </div>
-                    <div class="left-list-of-company" style="border: 1px solid black;">
-                        <div class="inleft-list-of-company">
-
-                        </div>
+                    <div class="left-list-of-company" >
+                           <ul class="inleft-list-item-ul">
+                               <li class="inleft-list-item-ul-li">
+                                   <div class="inleft-list-item-ul-li-div">
+                                       <div class="inleft-list-item-ul-li-div-spandiv">
+                                           <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                                       </div>
+                                       <span class="inleft-list-item-ul-li-div-span2">82</span>
+                                   </div>
+                               </li>
+                           </ul>
                     </div>
                 </div>
                 <div class="right-main">
                     <div class="chapter">
-                        <h3>Вакансии дня в Казахстане</h3>
-                        <div class=""></div>
+                        <h3 class="chapter_h3">Вакансии дня в Казахстане</h3>
+                    </div>
+                    <div class="right-list-of-company-column_1" >
+                        <ul class="inright-list-item-ul">
+                            <li class="inright-list-item-ul-li">
+                                <div class="inright-list-item-ul-li-div">
+                                    <div class="inright-list-item-ul-li-div1">
+                                        <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                        </a>
+                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="inright-list-item-ul-li">
+                                <div class="inright-list-item-ul-li-div">
+                                    <div class="inright-list-item-ul-li-div1">
+                                        <a href="">
+                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                        </a>
+                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-list-of-company-column_2" >
+                        <ul class="inright-list-item-ul">
+                            <li class="inright-list-item-ul-li">
+                                <div class="inright-list-item-ul-li-div">
+                                    <div class="inright-list-item-ul-li-div1">
+                                        <a href="">
+                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                        </a>
+                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="inright-list-item-ul-li">
+                                <div class="inright-list-item-ul-li-div">
+                                    <div class="inright-list-item-ul-li-div1">
+                                        <a href="">
+                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                        </a>
+                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-list-of-company-column_3" style="border: ;">
+                        <ul class="inright-list-item-ul">
+                            <li class="inright-list-item-ul-li">
+                                <div class="inright-list-item-ul-li-div">
+                                    <div class="inright-list-item-ul-li-div1">
+                                        <a href="">
+                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                        </a>
+                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="inright-list-item-ul-li">
+                                <div class="inright-list-item-ul-li-div">
+                                    <div class="inright-list-item-ul-li-div1">
+                                        <a href="">
+                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                        </a>
+                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Work-by-profession">
+                    <div class="chapter">
+                        <h3>Работа по профессиям в Казахстане</h3>
+                    </div>
+                    <div class="Works-by-professions">7
                     </div>
                 </div>
             </div>
@@ -227,12 +321,9 @@
             </div>
         </footer>
     </div>
-<div>
-    hello
-</div>
-
 
 </body>
+
 </html>
 
 <style>
@@ -283,12 +374,13 @@
     .brand{
         width: auto;
         height: 100%;
+        /*margin-left: -%;*/
         /*border: 1px solid white;*/
     }
     .brand-section{
         width: auto;
         height: auto;
-        margin-top: 16px;
+        margin-top: 19px;
     }
     .brand img, .brand h2{
         display: inline-block;
@@ -297,32 +389,59 @@
     .brand h2{
         color: #3e2723;
     }
+    .brand img:hover{
+        -webkit-animation:spin 1s linear infinite;
+        -moz-animation:spin 1s linear infinite;
+        animation:spin 500ms linear infinite;
+    }
+
+
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
 
     /*Search container css*/
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+    }
 
     .search-container{
         width: auto;
         height: 100%;
         /*border: 1px solid white;*/
         margin-left: 2%;
+        border: none
     }
 
     .search-container form{
         /*border: 1px solid white;*/
-        margin-top: 18px;
+        margin-top: 21px;
     }
 
     .search-container input[type=text]{
-        width: 550px;
+        width: 610px;
         padding: 8px;
         font-size: 17px;
         border: 1px solid black;
     }
 
     .select-ResumeVacotian{
-        padding: 8px 10px;
-        font-size: 100%;
+        width: 80px;
+        height: 37.3px;
+        text-align: center;
+        border: 1px solid black;
+        /*border-radius: 5%;*/
+        font-size: 110%;
     }
+
     .search-container button {
         padding: 9px 10px;
         background: #09afff;
@@ -360,13 +479,13 @@
         width:auto;
         height: 100%;
         /*border: 1px solid white;*/
-        margin-left: 2%;
+        margin-left: 32px;
     }
 
     .WordAndSelectsUnder{
         width: auto;
         /*border: 1px solid white;*/
-        margin-top: 21px;
+        margin-top: 29px;
     }
 
     .WordsAndSelects a {
@@ -382,9 +501,10 @@
     }
 
      .select-language{
-        padding: 3px 5px;
+        height: 20px;
         font-size: 100%;
          margin-left: 16px;
+         border: 1px solid black;
     }
     .WordsAndSelects a,.language-select{
         display: inline-block;
@@ -435,14 +555,9 @@
     }
 
 
-
     .sticky {
         position: fixed;
-        width: 100%;
-        left: 0;
-        top: 0;
-        /*z-index: 100;*/
-        border-top: 0;
+        top: -3em;
     }
 
 
@@ -499,8 +614,10 @@
         width: 100%;
         height: 350px;
         background-image: url("https://static1.bigstockphoto.com/2/1/2/large1500/212071570.jpg");
+        /*background-image: url("http://ulula.com/wp-content/uploads/2016/05/wider-picture-of-worker.jpg");*/
         background-repeat: no-repeat;
         background-position: center;
+        backface-visibility: inherit;
         background-size: cover;
     }
     .undersection{
@@ -509,7 +626,7 @@
         /*background-color: #00c851;*/
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid white;
+        /*border: 1px solid white;*/
     }
     .half-undersection,.half-undersection-fomAndIndicator{
         height: 100%;
@@ -525,6 +642,7 @@
         /*background-color: black;*/
         /*border: 1px solid white;*/
     }
+
 
 
 
@@ -679,51 +797,151 @@
     }
 
     .main-section{
-        height: 650px;
-        background-color: #00acc1;
-        border: 1px solid red;
+        height: auto;
+        /*background-color: #00acc1;*/
+        /*border: 1px solid red;*/
+    }
+    .main-section a{
+        text-decoration: none;
+        display: block;
+    }
+    .main-section a:hover{
+        color: red;
     }
     .MainSelects{
         width: 1250px;
-        height: 100%;
-        background-color: #00e676;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-    .left-main{
-        width: 310px;
-        height: 100%;
-        background-color: #00e5ff;
-    }
-    .right-main{
-        width: 930px;
-        height: 100%;
-        background-color: orangered;
+        border-bottom: 1px solid grey;
     }
 
+    .left-main{
+        width: 310px;
+        height: 500px;
+        border: 1px solid grey;
+        /*background-color: #00e5ff;*/
+    }
     .left-main,.right-main{
         display: inline-block;
+        vertical-align: top;
     }
     .chapter{
         width: 100%;
         height: 50px;
-        background-color: yellow;
+        /*background-color: yellow;*/
     }
     .chapter h3{
         float: left;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 110%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .chapter_h3{
+        margin-left: 2%;
     }
     .left-list-of-company{
-        width: 100%;
-        height: 92%;
-        background-color: yellowgreen;
-    }
-    .inleft-list-of-company{
-        width: 80%;
-        height: 92%;
-        background-color: green;
+        /*background-color: yellowgreen;*/
         float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .inleft-list-item-ul{
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .inleft-list-item-ul-li-div{
+        width: 100%;
+        height: auto;
+        /*border: 1px solid moccasin;*/
+    }
+    .inleft-list-item-ul-li{
+        list-style-type: none;
+        /*border: 1px solid orangered;*/
+        margin-top: 3%;
+    }
+    .inleft-list-item-ul-li-div-spandiv{
+        /*border: 1px solid red;*/
+        width: 70%;
+        display: inline-block;
+
+        /*float: left;*/
+    }
+    .inleft-list-item-ul-li-div-span2{
+        /*border: 1px solid red;*/
+        float: right;
+        margin-right: 4%;
+        margin-top: 3%;
+    }
+    .inleft-list-item-ul-li-div-span{
+        text-decoration: none;
+        color: black;
+        font-size: 95%;
+        font-family: Arial, Helvetica, sans-serif ;
+    }
+
+    .right-main{
+        width: 930px;
+        height: 500px;
+        border: 1px solid grey;
+        /*background-color: orangered;*/
+    }
+    .right-main h5{
+        text-decoration: none;
+        font-size: 100%;
+        font-weight: lighter;
+        margin: 0;
+        margin-top: 1%;
+        display: block;
+    }
+    .right-list-of-company-column_1,.right-list-of-company-column_2,.right-list-of-company-column_3{
+        width: 30.5%;
+        height: 92%;
+        display: inline-block;
+        margin-left: 2%;
+    }
+    .right-list-of-company-column_1{
+        margin-left: 2%;
+    }
+    .inright-list-item-ul-li{
+        margin-top: 5%;
+    }
+    .inright-list-item-ul-li-div-a-small{
+        font-size: small;
+        color: grey;
+        margin-top: 1%;
+    }
+    .inright-list-item-ul{
+        list-style-type: none;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .Work-by-profession{
+        border-top: 1px solid grey;
+        width: 1250px;
+        height: 400px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Work-by-profession h3{
+        margin: 0;
+    }
+    .Works-by-professions{
+        width: 100%;
+        height: 100%;
+        background-color: #00e5ff;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 100%;
+    }
+    .grid-item{
+        text-align: center;
+        border: 2px solid yellow;
+
     }
 
 
@@ -735,6 +953,7 @@
         padding: 50px;
         background-color: #00e676;
         text-align: center;
+        margin-top: 10%;
     }
     .icons{
         width: auto;
@@ -742,7 +961,6 @@
     }
     .footer-copyright{
         background-color: #0c5460;
-        /*width: 200px;*/
         height: auto;
     }
 
@@ -776,11 +994,16 @@
 
     @media screen and (max-width: 1300px) {
         .search-container input[type=text]{
-            width: 300px;
+            width: 365px;
         }
         .topnav{
             width: 1000px;
         }
+        /*.in-topnav{*/
+            /*width: auto;*/
+            /*height: auto;*/
+
+        /*}*/
         .under-float{
             width: 1000px;
         }
@@ -802,15 +1025,32 @@
         .formSet{
             width: 95%;
         }
-
-
+        .MainSelects{
+            width: 1000px;
+            border-bottom: 1px solid grey;
+        }
+        .right-main{
+            width: 680px;
+        }
+        .right-list-of-company-column_3{
+            display: none;
+        }
+        .right-list-of-company-column_1,.right-list-of-company-column_2{
+            width: 47.5%;
+        }
+        .Work-by-profession{
+            width: 1000px;
+        }
     }
-
     @media screen and (max-width: 1020px) {
         .topnav{
-            width: 690px;
+            width: 653px;
             height: auto;
         }
+        .search-container input[type=text]{
+            width: 307px;
+        }
+
         .WordsAndSelects{
             width: 100%;
             margin-left: 0;
@@ -838,7 +1078,22 @@
         .half-undersection-fomAndIndicator{
             display: none;
         }
-
+        .MainSelects{
+            width: 690px;
+        }
+        .right-main{
+            margin-left: 2%;
+            width: 350px;
+        }
+        .right-list-of-company-column_2{
+            display: none;
+        }
+        .right-list-of-company-column_1{
+            width: 100%;
+        }
+        .mini-search{
+            display: none;
+        }
     }
 
 
@@ -852,14 +1107,17 @@
         $(".calling-topnav").hide();
         var stickyNavTop = $('.float-header').offset().top;
         var stickyNav = function(){
-            var scrollTop = $(window).scrollTop();
-            if (scrollTop > stickyNavTop) {
-                $('.float-header').addClass('sticky');
+            var scrollTop = ($(window).scrollTop());
+            var header_height = $('.float-header').height();
+            if (scrollTop >= stickyNavTop+header_height) {
+                $('.float-header').addClass('sticky').animate({
+                    top: 0 });
                 $('#invisible-img-icon').show(200);
                 $('.mini-search').fadeIn();
                 $(".calling-topnav").fadeOut(200);
             } else {
-                $('.float-header').removeClass('sticky');
+                $('.float-header').removeClass('sticky').clearQueue().animate({
+                    top: "-48px"}, 0);;
                 $('#invisible-img-icon').hide(200);
                 $(".calling-topnav").hide();
                 $('.mini-search').fadeOut();
@@ -871,7 +1129,7 @@
         
         
         var callTopNav = function () {
-            $("input[name='search']").bind("click",function(){
+            $("input[name='mini-search']").bind("click",function(){
                 $(".calling-topnav").fadeIn(300);
                 $(".mini-search").fadeOut(200);
             });
