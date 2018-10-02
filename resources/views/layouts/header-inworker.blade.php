@@ -6,324 +6,633 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
 </head>
 <body>
 
-    <div class="container-fluid" >
-        <div class="header">
-            <div class="topnav">
+<div class="container-fluid" >
+    <div class="header">
+        <div class="topnav">
 
-                <div class="brand">
-                    <a href="" style="text-decoration: none;">
-                        <div class="brand-section">
-                            <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="40" height="40"  alt="">
-                            <h2 id="worker" style="width: auto; ">Worker.kz</h2>
-                        </div>
-                    </a>
-                </div>
+            <div class="brand">
+                <a href="" style="text-decoration: none;">
+                    <div class="brand-section">
+                        <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="40" height="40"  alt="">
+                        <h2 id="worker" style="width: auto; ">Worker.kz</h2>
+                    </div>
+                </a>
+            </div>
 
-                <div class="search-container">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <div class="select-div" style="">
-                            <select class="select-ResumeVacotian" id="sel1">
-                                <option>Резюме</option>
-                                <option>Вакансий</option>
-                                <option>Бизнес</option>
-                            </select>
-                        </div>
-                        <button type="submit" >Найти</button>
-                    </form>
-                </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <div class="select-div" style="">
+                        <select class="select-ResumeVacotian" id="sel1">
+                            <option>Резюме</option>
+                            <option>Вакансий</option>
+                            <option>Бизнес</option>
+                        </select>
+                    </div>
+                    <button type="submit" >Найти</button>
+                </form>
+            </div>
 
-                <div class="WordsAndSelects">
-                    <div class="WordAndSelectsUnder">
-                        <a href="" style="font-size: small">Расширенный поиск</a>
-                        <div class="language-select">
-                            <select class="select-language" id="sel1" style="">
-                                <option>Русский</option>
-                                <option>Казахский</option>
-                                <option>Английский</option>
-                            </select>
-                        </div>
+            <div class="WordsAndSelects">
+                <div class="WordAndSelectsUnder">
+                    <a href="" style="font-size: small">Расширенный поиск</a>
+                    <div class="language-select">
+                        <select class="select-language" id="sel1" style="">
+                            <option>Русский</option>
+                            <option>Казахский</option>
+                            <option>Английский</option>
+                        </select>
                     </div>
                 </div>
-            {{--</div>--}}
             </div>
+
         </div>
-        <div class="float-header">
-            <div class="calling-topnav">
-                <div class="header">
-                    <div class="topnav">
-                        <div class="brand">
-                            <a href="" style="text-decoration: none;">
-                                <div class="brand-section">
-                                    <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="40" height="40"  alt="">
-                                    <h2 id="worker" style="width: auto; ">Worker.kz</h2>
-                                </div>
-                            </a>
-                        </div>
+    </div>
+    <div class="float-header">
+        <div class="calling-topnav">
+            <div class="header">
+                <div class="topnav">
+                    <div class="brand">
+                        <a href="" style="text-decoration: none;">
+                            <div class="brand-section">
+                                <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="40" height="40"  alt="">
+                                <h2 id="worker" style="width: auto; ">Worker.kz</h2>
+                            </div>
+                        </a>
+                    </div>
 
-                        <div class="search-container">
-                            <form action="/action_page.php">
-                                <input type="text" placeholder="Search.." name="search">
-                                <div class="select-div" style="">
-                                    <select class="select-ResumeVacotian" id="sel1">
-                                        <option>Резюме</option>
-                                        <option>Вакансий</option>
-                                        <option>Бизнес</option>
-                                    </select>
-                                </div>
-                                <button type="submit" >Найти</button>
-                            </form>
-                        </div>
-
-                        <div class="WordsAndSelects">
-                            <div class="WordAndSelectsUnder">
-                                <a href="" style="font-size: small">Расширенный поиск</a>
-                                <div class="language-select">
-                                    <select class="select-language" id="sel1" style="">
-                                        <option>Русский</option>
-                                        <option>Казахский</option>
-                                        <option>Английский</option>
-                                    </select>
-                                </div>
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <div class="select-div" style="">
+                                <select class="select-ResumeVacotian" id="sel1">
+                                    <option>Резюме</option>
+                                    <option>Вакансий</option>
+                                    <option>Бизнес</option>
+                                </select>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="under-float">
-                <div class="image">
-                    <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" id="invisible-img-icon" width="25" height="25" style="margin-top: 4.5px;float: left; margin-left: 1%;">
-                </div>
-                <div class="dropdowns">
-                    <div class="dropdown">
-                        <button class="dropbtn">Ищу работу</button>
-                        <div class="dropdown-content">
-                            <a href="#">Создать резюме </a>
-                            <a href="#">Как улучшить резюме</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Ищу сотрудников</button>
-                        <div class="dropdown-content">
-                            <a href="#">Разместить вакансию</a>
-                            <a href="#">Праис лист</a>
-                            <a href="#">Описание услуг</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Помощь</button>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Компании</button>
-                        <div class="dropdown-content">
-                            <a href="#">Каталог компаний</a>
-                            <a href="#">Работа по профессиям</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Проекты</button>
-                        <div class="dropdown-content">
-                            <a href="#">Полезная ирформация </a>
-                        </div>
-                    </div>
-                    <div class="mini-search" href="">
-                        <input type="text" placeholder="Search.." name="mini-search">
-                        <button type="submit" >Найти</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <section class="main-imageandLog-in">
-            <div class="undersection">
-                <div class="half-undersection">
-                    <div class="Chapter">
-                        <div class="header-word">
-                            <h1>Найди работу мечты</h1>
-                        </div>
-                    </div>
-                    <div class="TwoButton">
-                        <div class="Buttons">
-                            <button type="button" class="SetResume">
-                                Разместить резюме
-                            </button>
-                            <button type="bx`utton" class="AddVacancies">
-                                Опубликовать вакансию
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="half-undersection-fomAndIndicator">
-                    <div class="fitters">
-                        <div class="indicatorSet">
-                            <div id="HowManyResume">
-                                <h1 >2 102 123</h1>
-                                <h5>резюме</h5>
-                            </div>
-                            <div id="HowManyVacancy">
-                                <h1 >23 901</h1>
-                                <h5>вакансия</h5>
-                            </div>
-                            <div id="HowManyCompany">
-                                <h1 >52 003</h1>
-                                <h5>компании</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form">
-                        <form class="formSet" action="">
-                            <h5 style="margin: 0;padding: 0; margin-top: 16px;margin-left: 6%; font-size: 90%;font-family: Arial;color: white;">Регистрация</h5>
-                            <div class="inputs">
-                            <input type="text"  name="firstname" placeholder="Email или телефон">
-                            <input type="text"  name="lastname" placeholder="Пароль">
-                            </div>
-                            <div class="RememberMe">
-                                <input type="checkbox" name="" value="" style="">
-                                <h5 style="margin: 0;padding: 0; display: inline-block; vertical-align: top;margin-top: 4px ;color: white;">Запомнить</h5>
-                                <a href="" style="margin-left: 15%; font-size:80%;padding: 0; display: inline-block; vertical-align: top;margin-top: 6px;text-decoration: none;color: #00e5ff;">Получить пароль</a>
-                            </div>
-                            <input type="submit" value="Submit">
+                            <button type="submit" >Найти</button>
                         </form>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="Formum-Help-TopResume">
-        </section>
-
-
-        <section class="main-section">
-            <div class="MainSelects">
-                <div class="left-main">
-                    <div class="chapter">
-                        <h3>Работа в компаниях Казахстана</h3>
-                    </div>
-                    <div class="left-list-of-company" >
-                           <ul class="inleft-list-item-ul">
-                               <li class="inleft-list-item-ul-li">
-                                   <div class="inleft-list-item-ul-li-div">
-                                       <div class="inleft-list-item-ul-li-div-spandiv">
-                                           <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
-                                       </div>
-                                       <span class="inleft-list-item-ul-li-div-span2">82</span>
-                                   </div>
-                               </li>
-                           </ul>
-                    </div>
-                </div>
-                <div class="right-main">
-                    <div class="chapter">
-                        <h3 class="chapter_h3">Вакансии дня в Казахстане</h3>
-                    </div>
-                    <div class="right-list-of-company-column_1" >
-                        <ul class="inright-list-item-ul">
-                            <li class="inright-list-item-ul-li">
-                                <div class="inright-list-item-ul-li-div">
-                                    <div class="inright-list-item-ul-li-div1">
-                                        <a href="">
-                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
-                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
-                                        </a>
-                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="inright-list-item-ul-li">
-                                <div class="inright-list-item-ul-li-div">
-                                    <div class="inright-list-item-ul-li-div1">
-                                        <a href="">
-                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
-                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
-                                        </a>
-                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="right-list-of-company-column_2" >
-                        <ul class="inright-list-item-ul">
-                            <li class="inright-list-item-ul-li">
-                                <div class="inright-list-item-ul-li-div">
-                                    <div class="inright-list-item-ul-li-div1">
-                                        <a href="">
-                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
-                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
-                                        </a>
-                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="inright-list-item-ul-li">
-                                <div class="inright-list-item-ul-li-div">
-                                    <div class="inright-list-item-ul-li-div1">
-                                        <a href="">
-                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
-                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
-                                        </a>
-                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="right-list-of-company-column_3" style="border: ;">
-                        <ul class="inright-list-item-ul">
-                            <li class="inright-list-item-ul-li">
-                                <div class="inright-list-item-ul-li-div">
-                                    <div class="inright-list-item-ul-li-div1">
-                                        <a href="">
-                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
-                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
-                                        </a>
-                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="inright-list-item-ul-li">
-                                <div class="inright-list-item-ul-li-div">
-                                    <div class="inright-list-item-ul-li-div1">
-                                        <a href="">
-                                            <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
-                                            <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
-                                        </a>
-                                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="Work-by-profession">
-                    <div class="chapter">
-                        <h3>Работа по профессиям в Казахстане</h3>
-                    </div>
-                    <div class="Works-by-professions">7
+                    <div class="WordsAndSelects">
+                        <div class="WordAndSelectsUnder">
+                            <a href="" style="font-size: small">Расширенный поиск</a>
+                            <div class="language-select">
+                                <select class="select-language" id="sel1" style="">
+                                    <option>Русский</option>
+                                    <option>Казахский</option>
+                                    <option>Английский</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-
-        <footer>
-            <div class="icons">
-                <i class="fa fa-chrome"></i>
+        <div class="under-float">
+            <div class="image">
+                <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" id="invisible-img-icon" width="25" height="25" style="margin-top: 4.5px;float: left; margin-left: 1%;">
             </div>
-            <div class="footer-copyright">
-                <h3>Copyright <a href="" style="color: #fffacc;">www.Worker.kz</a> 2018</h3>
+            <div class="dropdowns">
+                <div class="dropdown">
+                    <button class="dropbtn">Ищу работу</button>
+                    <div class="dropdown-content">
+                        <a href="#">Создать резюме </a>
+                        <a href="#">Как улучшить резюме</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Ищу сотрудников</button>
+                    <div class="dropdown-content">
+                        <a href="#">Разместить вакансию</a>
+                        <a href="#">Праис лист</a>
+                        <a href="#">Описание услуг</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Помощь</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Компании</button>
+                    <div class="dropdown-content">
+                        <a href="#">Каталог компаний</a>
+                        <a href="#">Работа по профессиям</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Проекты</button>
+                    <div class="dropdown-content">
+                        <a href="#">Полезная ирформация </a>
+                    </div>
+                </div>
+                <div class="mini-search" href="">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit" >Найти</button>
+                </div>
             </div>
-        </footer>
+        </div>
     </div>
 
-</body>
 
+    <section class="main-imageandLog-in">
+        <div class="undersection">
+            <div class="half-undersection">
+                <div class="Chapter">
+                    <div class="header-word">
+                        <h1>Найди работу мечты</h1>
+                    </div>
+                </div>
+                <div class="TwoButton">
+                    <div class="Buttons">
+                        <button type="button" class="SetResume">
+                            Разместить резюме
+                        </button>
+                        <button type="bx`utton" class="AddVacancies">
+                            Опубликовать вакансию
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="half-undersection-fomAndIndicator">
+                <div class="fitters">
+                    <div class="indicatorSet">
+                        <div id="HowManyResume">
+                            <h1 >2 102 123</h1>
+                            <h5>резюме</h5>
+                        </div>
+                        <div id="HowManyVacancy">
+                            <h1 >23 901</h1>
+                            <h5>вакансия</h5>
+                        </div>
+                        <div id="HowManyCompany">
+                            <h1 >52 003</h1>
+                            <h5>компании</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <form class="formSet" action="">
+                        <h5 style="margin: 0;padding: 0; margin-top: 16px;margin-left: 6%; font-size: 90%;font-family: Arial;color: white;">Регистрация</h5>
+                        <div class="inputs">
+                            <input type="text"  name="firstname" placeholder="Email или телефон">
+                            <input type="text"  name="lastname" placeholder="Пароль">
+                        </div>
+                        <div class="RememberMe">
+                            <input type="checkbox" name="" value="" style="">
+                            <h5 style="margin: 0;padding: 0; display: inline-block; vertical-align: top;margin-top: 4px ;color: white;">Запомнить</h5>
+                            <a href="" style="margin-left: 15%; font-size:80%;padding: 0; display: inline-block; vertical-align: top;margin-top: 6px;text-decoration: none;color: #00e5ff;">Получить пароль</a>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Formum-Help-TopResume">
+    </section>
+
+
+    <section class="main-section">
+        <div class="MainSelects">
+            <div class="Main-companyAndVacotion">
+            <div class="left-main">
+                <div class="chapter">
+                    <h3>Работа в компаниях Казахстана</h3>
+                </div>
+                <div class="left-list-of-company" style="border: 1px solid black;">
+                    <div class="item_company-1">
+                        <ul class="inleft-list-item-ul">
+                            <li class="inleft-list-item-ul-li">
+                            <div class="inleft-list-item-ul-li-div">
+                            <div class="inleft-list-item-ul-li-div-spandiv">
+                            <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                            </div>
+                            <span class="inleft-list-item-ul-li-div-span2">82</span>
+                            </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">82</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">82</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">ХИМФАРМ (Santo, ТМ)</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">812</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Модный Континент-Казахстан</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">12</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Модный Континент-Казахстан</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">12</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Модный Континент-Казахстан</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">12</span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="item_company-2">
+                        <ul class="inleft-list-item-ul">
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">82</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">82</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Банк Хоум Кредит sadasmasdas asdasd ads</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">82</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">ХИМФАРМ (Santo, ТМ)</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">812</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Модный Континент-Казахстан</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">12</span>
+                                </div>
+                            </li>
+                            <li class="inleft-list-item-ul-li">
+                                <div class="inleft-list-item-ul-li-div">
+                                    <div class="inleft-list-item-ul-li-div-spandiv">
+                                        <a href="" class="inleft-list-item-ul-li-div-span-a">Модный Континент-Казахстан</a>
+                                    </div>
+                                    <span class="inleft-list-item-ul-li-div-span2">12</span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-main">
+                <div class="chapter">
+                    <h3>Вакансии дня в Казахстане</h3>
+                </div>
+                <div class="right-lists-of-company">
+                <div class="right-list-of-company-column_1" style="border: 1px solid black;">
+                    <ul class="inright-list-item-ul">
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-list-of-company-column_2" style="border: 1px solid black;">
+                    <ul class="inright-list-item-ul">
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>  <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-list-of-company-column_3" style="border: 1px solid black;">
+                    <ul class="inright-list-item-ul-1">
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="inright-list-item-ul-2">
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                            <div class="inright-list-item-ul-li-div">
+                                <div class="inright-list-item-ul-li-div1">
+                                    <a href="">
+                                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                                    </a>
+                                    <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inright-list-item-ul-li">
+                        <div class="inright-list-item-ul-li-div">
+                        <div class="inright-list-item-ul-li-div1">
+                        <a href="">
+                        <h5  class="inright-list-item-ul-li-div-span-a">Менеджер по оптовым продажам</h5>
+                        <h5  class="inright-list-item-ul-li-div-span-a">от 35000-75000тг</h5>
+                        </a>
+                        <a href="" class="inright-list-item-ul-li-div-a-small">Kaspi bank,Kordai</a>
+                        </div>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="Main-by-town">
+            <div class="chapter-by-city">
+                <h3>Работа по профессиям в Казахстане</h3>
+            </div>
+            <div class="proffosions">
+                <div class="by-proffosion-1">
+                    <ul>
+                        <li>
+                            <a href="">Автомобильный бизнес</a>
+                        </li>
+                        <li>
+                            <a href="">Бухгалтерия, управленческий учет, финансы предприятия</a>
+                        </li>
+                        <li>
+                            <a href="">Административный персонал</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="by-proffosion-2">
+                    <div class="by-proffosion-2_1">
+                        <ul>
+                            <li>
+                                <a href="">Автомобильный бизнес</a>
+                            </li>
+                            <li>
+                                <a href="">Бухгалтерия, управленческий учет, финансы предприятия</a>
+                            </li>
+                            <li>
+                                <a href="">Административный персонал</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="by-proffosion-2_2">
+                        <ul>
+                            <li>
+                                <a href="">Автомобильный бизнес</a>
+                            </li>
+                            <li>
+                                <a href="">Бухгалтерия, управленческий учет, финансы предприятия</a>
+                            </li>
+                            <li>
+                                <a href="">Административный персонал</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="by-proffosion-3">
+                    <ul>
+                        <li>
+                            <a href="">Автомобильный бизнес</a>
+                        </li>
+                        <li>
+                            <a href="">Бухгалтерия, управленческий учет, финансы предприятия</a>
+                        </li>
+                        <li>
+                            <a href="">Административный персонал</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="by-proffosion-4">
+                    <ul>
+                        <li>
+                            <a href="">Автомобильный бизнес</a>
+                        </li>
+                        <li>
+                            <a href="">Бухгалтерия, управленческий учет, финансы предприятия</a>
+                        </li>
+                        <li>
+                            <a href="">Административный персонал</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="icons">
+            <i class="fa fa-chrome"></i>
+        </div>
+        <div class="footer-copyright">
+            <h3>Copyright <a href="" style="color: #fffacc;">www.Worker.kz</a> 2018</h3>
+        </div>
+    </footer>
+</div>
+
+
+
+</body>
 </html>
 
 <style>
@@ -374,7 +683,6 @@
     .brand{
         width: auto;
         height: 100%;
-        /*margin-left: -%;*/
         /*border: 1px solid white;*/
     }
     .brand-section{
@@ -389,20 +697,6 @@
     .brand h2{
         color: #3e2723;
     }
-    .brand img:hover{
-        -webkit-animation:spin 1s linear infinite;
-        -moz-animation:spin 1s linear infinite;
-        animation:spin 500ms linear infinite;
-    }
-
-
-
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
-
 
     /*Search container css*/
 
@@ -410,7 +704,6 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        border: none;
     }
 
     .search-container{
@@ -418,7 +711,6 @@
         height: 100%;
         /*border: 1px solid white;*/
         margin-left: 2%;
-        border: none
     }
 
     .search-container form{
@@ -427,21 +719,16 @@
     }
 
     .search-container input[type=text]{
-        width: 610px;
+        width: 550px;
         padding: 8px;
         font-size: 17px;
         border: 1px solid black;
     }
 
     .select-ResumeVacotian{
-        width: 80px;
-        height: 37.3px;
-        text-align: center;
-        border: 1px solid black;
-        /*border-radius: 5%;*/
-        font-size: 110%;
+        padding: 8px;
+        font-size: 100%;
     }
-
     .search-container button {
         padding: 9px 10px;
         background: #09afff;
@@ -485,7 +772,7 @@
     .WordAndSelectsUnder{
         width: auto;
         /*border: 1px solid white;*/
-        margin-top: 29px;
+        margin-top: 25px;
     }
 
     .WordsAndSelects a {
@@ -500,11 +787,10 @@
         color: blue;
     }
 
-     .select-language{
-        height: 20px;
+    .select-language{
+        padding: 3px ;
         font-size: 100%;
-         margin-left: 16px;
-         border: 1px solid black;
+        margin-left: 16px;
     }
     .WordsAndSelects a,.language-select{
         display: inline-block;
@@ -531,7 +817,7 @@
         background-color: #3e2723;
     }
     /*.calling-topnav{*/
-        /*display: none;*/
+    /*display: none;*/
     /*}*/
 
 
@@ -555,9 +841,14 @@
     }
 
 
+
     .sticky {
         position: fixed;
-        top: -3em;
+        width: 100%;
+        left: 0;
+        top: 0;
+        /*z-index: 100;*/
+        border-top: 0;
     }
 
 
@@ -614,10 +905,8 @@
         width: 100%;
         height: 350px;
         background-image: url("https://static1.bigstockphoto.com/2/1/2/large1500/212071570.jpg");
-        /*background-image: url("http://ulula.com/wp-content/uploads/2016/05/wider-picture-of-worker.jpg");*/
         background-repeat: no-repeat;
         background-position: center;
-        backface-visibility: inherit;
         background-size: cover;
     }
     .undersection{
@@ -642,7 +931,6 @@
         /*background-color: black;*/
         /*border: 1px solid white;*/
     }
-
 
 
 
@@ -798,8 +1086,8 @@
 
     .main-section{
         height: auto;
-        /*background-color: #00acc1;*/
-        /*border: 1px solid red;*/
+        background-color: #00acc1;
+        border: 1px solid red;
     }
     .main-section a{
         text-decoration: none;
@@ -811,16 +1099,23 @@
     .MainSelects{
         width: 1250px;
         height: auto;
+        background-color: #00e676;
         margin-left: auto;
         margin-right: auto;
-        border-bottom: 1px solid grey;
     }
-
+    .left-main{grid-area: left-main}
+    .right-main{grid-area: right-main}
+    .Main-companyAndVacotion{
+        height: auto;
+        display: grid;
+        grid-template-areas: 'left-main right-main';
+        grid-template-columns: 25% 75%;
+    }
     .left-main{
-        width: 310px;
-        height: 500px;
-        border: 1px solid grey;
-        /*background-color: #00e5ff;*/
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: #00e5ff;
     }
     .left-main,.right-main{
         display: inline-block;
@@ -829,7 +1124,7 @@
     .chapter{
         width: 100%;
         height: 50px;
-        /*background-color: yellow;*/
+        background-color: yellow;
     }
     .chapter h3{
         float: left;
@@ -838,15 +1133,25 @@
         margin-bottom: 0;
         padding: 0;
     }
-    .chapter_h3{
-        margin-left: 2%;
+    .item_company-1{
+        height: auto;
     }
+    .item_company-1{grid-area: item1}
+    .item_company-2{grid-area: item2}
+
     .left-list-of-company{
-        /*background-color: yellowgreen;*/
+        display: grid;
+        /*grid-template-rows: 50%;*/
+        grid-template-columns: 100%;
+        grid-template-areas: 'item1'
+                             'item2';
+        width: 100%;
+        height: 85%;
+        background-color: yellowgreen;
         float: left;
-        margin-right: auto;
-        margin-left: auto;
     }
+
+
     .inleft-list-item-ul{
         margin-bottom: 0;
         padding: 0;
@@ -854,25 +1159,26 @@
     .inleft-list-item-ul-li-div{
         width: 100%;
         height: auto;
-        /*border: 1px solid moccasin;*/
+        border: 1px solid moccasin;
     }
     .inleft-list-item-ul-li{
         list-style-type: none;
-        /*border: 1px solid orangered;*/
+        border: 1px solid orangered;
         margin-top: 3%;
     }
     .inleft-list-item-ul-li-div-spandiv{
-        /*border: 1px solid red;*/
+        border: 1px solid red;
         width: 70%;
         display: inline-block;
 
         /*float: left;*/
     }
     .inleft-list-item-ul-li-div-span2{
-        /*border: 1px solid red;*/
+        border: 1px solid red;
         float: right;
         margin-right: 4%;
-        margin-top: 3%;
+        font-size: 80%;
+
     }
     .inleft-list-item-ul-li-div-span{
         text-decoration: none;
@@ -881,29 +1187,38 @@
         font-family: Arial, Helvetica, sans-serif ;
     }
 
-    .right-main{
-        width: 930px;
-        height: 500px;
-        border: 1px solid grey;
-        /*background-color: orangered;*/
-    }
+
     .right-main h5{
         text-decoration: none;
         font-size: 100%;
         font-weight: lighter;
         margin: 0;
         margin-top: 1%;
-        display: block;
     }
-    .right-list-of-company-column_1,.right-list-of-company-column_2,.right-list-of-company-column_3{
-        width: 30.5%;
-        height: 92%;
-        display: inline-block;
-        margin-left: 2%;
+
+    .right-list-of-company-column_1{grid-area: col_com-1}
+    .right-list-of-company-column_2{grid-area: col_com-2}
+    .right-list-of-company-column_3{grid-area: col_com-3}
+
+    .right-lists-of-company{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-areas: "col_com-1 col_com-2 col_com-3";
+        width: 100%;
+        /*height: 100%;*/
+        background-color: orangered;
     }
-    .right-list-of-company-column_1{
-        margin-left: 2%;
+    .inright-list-item-ul-1{grid-area: ul1}
+    .inright-list-item-ul-1{grid-area: ul2}
+    .right-list-of-company-column_3{
+        display: grid;
+        grid-template-areas: "ul1"
+                            "ul2";
+        grid-template-rows: 50%;
+        grid-template-columns: 100%;
+
     }
+
     .inright-list-item-ul-li{
         margin-top: 5%;
     }
@@ -912,37 +1227,72 @@
         color: grey;
         margin-top: 1%;
     }
-    .inright-list-item-ul{
+    .inright-list-item-ul,.inright-list-item-ul-1,.inright-list-item-ul-2{
         list-style-type: none;
         margin-bottom: 0;
+        margin-top: 0;
         padding: 0;
     }
-    .Work-by-profession{
-        border-top: 1px solid grey;
+    .by-proffosion-1{grid-area: prof1}
+    .by-proffosion-2{grid-area: prof2}
+    .by-proffosion-2_1{grid-area: prof2-1}
+    .by-proffosion-2_2{grid-area: prof2-2}
+    .by-proffosion-3{grid-area: prof3}
+    .by-proffosion-4{grid-area: prof4}
+    .proffosions{
+        display: grid;
+        grid-template-areas: 'prof1 prof2 prof3 prof4';
+        grid-template-columns: 25%;
+        grid-template-rows: 100%;
         width: 1250px;
-        height: 400px;
+        height: auto;
         background-color: yellow;
-        margin-left: auto;
-        margin-right: auto;
     }
-    .Work-by-profession h3{
+    .by-proffosion-2{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+        grid-template-areas:'prof2-1'
+                            'prof2-2';
+    }
+
+    .by-proffosion-2_1,.by-proffosion-2_2{
+        /*display: none;*/
+    }
+    div[class*="by-proffosion"]{
+        height:100%;
+        background-color: #00e5ff;
         margin: 0;
+        padding: 0;
+        border: 1px solid blue;
+        /*grid-row-end: span 2;*/
     }
-    .Works-by-professions{
+
+
+
+
+    div[class*="by-proffosion"] ul{
         width: 100%;
         height: 100%;
-        background-color: #00e5ff;
+        background-color: rgba(211,211,12,0.4);
+        margin: 0;
+        padding: 0;
+        border: 1px solid red;
+        float: left;
     }
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        height: 100%;
-    }
-    .grid-item{
-        text-align: center;
-        border: 2px solid yellow;
 
+    div[class*="by-proffosion"] ul li{
+        margin-top: 3%;
+        list-style-type: none;
+        width: 80%;
+        border: 1px solid black;
     }
+
+
+
+
+
+
 
 
 
@@ -953,7 +1303,7 @@
         padding: 50px;
         background-color: #00e676;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 1%;
     }
     .icons{
         width: auto;
@@ -985,23 +1335,18 @@
 
 
 
-
-
-
-
-
     /*Media design*/
 
     @media screen and (max-width: 1300px) {
         .search-container input[type=text]{
-            width: 365px;
+            width: 300px;
         }
         .topnav{
             width: 1000px;
         }
         /*.in-topnav{*/
-            /*width: auto;*/
-            /*height: auto;*/
+        /*width: auto;*/
+        /*height: auto;*/
 
         /*}*/
         .under-float{
@@ -1027,30 +1372,48 @@
         }
         .MainSelects{
             width: 1000px;
-            border-bottom: 1px solid grey;
         }
-        .right-main{
-            width: 680px;
+        .proffosions{
+            display: grid;
+            width: 1000px;
+            grid-template-areas: 'prof1 prof2 prof3';
+            grid-template-columns: 33.333% 33.333% 33.333%;
         }
-        .right-list-of-company-column_3{
+
+        div[class="by-proffosion-4"]{
             display: none;
         }
-        .right-list-of-company-column_1,.right-list-of-company-column_2{
-            width: 47.5%;
+        .Main-companyAndVacotion{
+            display: grid;
+            grid-template-areas: 'left-main right-main';
+            grid-template-columns: 33.333% 66.677%;
         }
-        .Work-by-profession{
-            width: 1000px;
+        .right-lists-of-company{
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-rows: 50%;
+            grid-template-areas: "col_com-1 col_com-2"
+                                 "col_com-3 col_com-3";
+            width: 100%;
+            height: auto;
+            background-color: orangered;
         }
+        .right-list-of-company-column_3{
+            display: grid;
+            grid-template-areas: "ul1 ul2";
+            grid-template-rows: 100%;
+            grid-template-columns: 50%;
+
+        }
+
+
+
     }
     @media screen and (max-width: 1020px) {
         .topnav{
             width: 653px;
             height: auto;
         }
-        .search-container input[type=text]{
-            width: 307px;
-        }
-
         .WordsAndSelects{
             width: 100%;
             margin-left: 0;
@@ -1081,18 +1444,38 @@
         .MainSelects{
             width: 690px;
         }
-        .right-main{
-            margin-left: 2%;
-            width: 350px;
+        .by-proffosion-2{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100%;
+            grid-template-areas:'prof2-1 prof2-2';
+            }
+
+        .proffosions{
+            display: grid;
+            width: auto;
+            height: auto;
+            grid-template-areas: 'prof1  prof3'
+                                 'prof2  prof2';
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
         }
-        .right-list-of-company-column_2{
-            display: none;
-        }
-        .right-list-of-company-column_1{
+        .left-main{
             width: 100%;
         }
-        .mini-search{
-            display: none;
+        .left-list-of-company{
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-areas: 'item1 item2';
+            width: 100%;
+            height: auto;
+            background-color: yellowgreen;
+            float: left;
+        }
+        .Main-companyAndVacotion{
+            display: grid;
+            grid-template-areas: 'left-main' 'right-main';
+            grid-template-columns: 100% 100%;
         }
     }
 
@@ -1107,17 +1490,14 @@
         $(".calling-topnav").hide();
         var stickyNavTop = $('.float-header').offset().top;
         var stickyNav = function(){
-            var scrollTop = ($(window).scrollTop());
-            var header_height = $('.float-header').height();
-            if (scrollTop >= stickyNavTop+header_height) {
-                $('.float-header').addClass('sticky').animate({
-                    top: 0 });
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > stickyNavTop) {
+                $('.float-header').addClass('sticky');
                 $('#invisible-img-icon').show(200);
                 $('.mini-search').fadeIn();
                 $(".calling-topnav").fadeOut(200);
             } else {
-                $('.float-header').removeClass('sticky').clearQueue().animate({
-                    top: "-48px"}, 0);;
+                $('.float-header').removeClass('sticky');
                 $('#invisible-img-icon').hide(200);
                 $(".calling-topnav").hide();
                 $('.mini-search').fadeOut();
@@ -1126,10 +1506,10 @@
             stickyNav();
         });
         stickyNav();
-        
-        
+
+
         var callTopNav = function () {
-            $("input[name='mini-search']").bind("click",function(){
+            $("input[name='search']").bind("click",function(){
                 $(".calling-topnav").fadeIn(300);
                 $(".mini-search").fadeOut(200);
             });
