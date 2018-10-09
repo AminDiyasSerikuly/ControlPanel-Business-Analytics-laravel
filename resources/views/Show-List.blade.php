@@ -2,6 +2,9 @@
 @section("section")
     <section class="Main-List-Box">
         <div class="Indiacator-VacOrResume">
+            <div class="SearchCommon">
+                <h2>52 вакансии «laravel»</h2>
+            </div>
         </div>
 
         <div class="Choose_panelAndListBox">
@@ -19,23 +22,76 @@
                         </button>
                         <button class="item btn" style="padding: 0;border-radius: 0;">
                             <div class="inButton">
-                                <h5 class="right-element">Казахстан</h5>
-                                <h5 class="indicator">57</h5>
+                                <h5 class="right-element">Россия</h5>
+                                <h5 class="indicator">34</h5>
                             </div>
                         </button>
+                    </div>
+                    <button class="buttonFilter btn" style="padding: 0; border-radius: 0;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h5>Зарплата</h5>
+                    </button>
+                    <div class="collapse" >
                         <button class="item btn" style="padding: 0;border-radius: 0;">
                             <div class="inButton">
                                 <h5 class="right-element">Казахстан</h5>
                                 <h5 class="indicator">57</h5>
                             </div>
                         </button>
+                    </div>
+                    <button class="buttonFilter btn" style="padding: 0; border-radius: 0;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h5>Профобласть</h5>
+                    </button>
+                    <div class="collapse" id="collapseExample">
                         <button class="item btn" style="padding: 0;border-radius: 0;">
                             <div class="inButton">
                                 <h5 class="right-element">Казахстан</h5>
                                 <h5 class="indicator">57</h5>
                             </div>
                         </button>
-
+                    </div>
+                    <button class="buttonFilter btn" style="padding: 0; border-radius: 0;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h5>Отрасль компании</h5>
+                    </button>
+                    <div class="collapse" id="collapseExample">
+                        <button class="item btn" style="padding: 0;border-radius: 0;">
+                            <div class="inButton">
+                                <h5 class="right-element">Казахстан</h5>
+                                <h5 class="indicator">57</h5>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="buttonFilter btn" style="padding: 0; border-radius: 0;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h5>Опыт работы</h5>
+                    </button>
+                    <div class="collapse" id="collapseExample">
+                        <button class="item btn" style="padding: 0;border-radius: 0;">
+                            <div class="inButton">
+                                <h5 class="right-element">Казахстан</h5>
+                                <h5 class="indicator">57</h5>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="buttonFilter btn" style="padding: 0; border-radius: 0;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h5>Тип зантости</h5>
+                    </button>
+                    <div class="collapse" id="collapseExample">
+                        <button class="item btn" style="padding: 0;border-radius: 0;">
+                            <div class="inButton">
+                                <h5 class="right-element">Казахстан</h5>
+                                <h5 class="indicator">57</h5>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="buttonFilter btn" style="padding: 0; border-radius: 0;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h5>График работы</h5>
+                    </button>
+                    <div class="collapse" id="collapseExample">
+                        <button class="item btn" style="padding: 0;border-radius: 0;">
+                            <div class="inButton">
+                                <h5 class="right-element">Казахстан</h5>
+                                <h5 class="indicator">57</h5>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -67,7 +123,7 @@
                         <div class="Chapter_Company_Adress_Salaty">
                             <div class="Chap_Sal">
                                 <div class="ChpaterOfVacotion">
-                                    <h4>PHP-разработчик (Laravel)</h4>
+                                    <a href=""><h4>PHP-разработчик (Laravel)</h4></a>
                                 </div>
                                 <div class="Salary">
                                     <h4>15000000-150000000</h4>
@@ -89,8 +145,13 @@
                                 </p>
                             </div>
                             <div class="DateMaster">
-                                    <h6 style="float: left;">Откликнуться</h6>
-                                    <h6 class="second" style="float: right;margin-right: 8px;">2 Сентября</h6>
+                                <div class="first">
+                                    <a href=""><h6 >Откликнуться</h6></a>
+                                    <a href=""><h6>Показать контакты</h6></a>
+                                </div>
+                                <div class="second">
+                                    <h6>2 Сентября</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -122,15 +183,16 @@
         width: 1250px;
         height: 1300px;
         margin-top:40px;
-        background-color: rgb(255,0,0);
+        background-color: #fffacc;
     }
     .dropdownsVersion2{
-        margin-top: 10px;
+        /*margin-top: 8px;*/
         text-align: center;
-        width: 75%;
+        width: 85%;
         height: auto;
         margin-right: auto;
         margin-left: auto;
+        background-color: #fffda7;
 
     }
 
@@ -147,30 +209,32 @@
         text-align: center;
         margin-top: 2%;
         background-color: transparent;
-        width: 100%;
+        width: 90%;
         padding: 0;
     }
     .item:hover{
-        background-color: gray;
+        background-color: #fffcc8;
     }
 
     .buttonFilter{
         background-color: transparent;
-        width: 100%;
+        width: 90%;
         padding: 0;
         margin: 0;
+        margin-top: 15px;
     }
     .buttonFilter h5{
         float: left;
         margin: 0;
         padding: 0;
+        font-weight: bold;
     }
     .dropdownsVersion2 h5{
         margin: 0;
         padding: 0;
     }
     .buttonFilter:hover{
-        background-color: gray;
+        background-color: #ffffd1;
     }
 
     div[class*="col-sm"]{
@@ -180,11 +244,17 @@
     .Indiacator-VacOrResume{
         width: 100%;
         height: 8%;
-        background-color: yellow;
+        display: flex;
+        align-items: center;
+        /*justify-content: center;*/
+        /*background-color: yellow;*/
+    }
+    .SearchCommon{
+        margin-left: 2.5%;
     }
     .ListShows{
         grid-area: ListShowsAsVar;
-        background-color: orange;
+        /*background-color: orange;*/
     }
     .Choose_panel{
         grid-area: Choose_panelAsVar;
@@ -213,26 +283,27 @@
     }
     .filter{
         width: 100%;
-        height: 70px;
-        background-color: #00e676;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 50px;
+        /*background-color: #00e676;*/
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
 
     }
     .container-for-items-of-filter{
-        width: 95%;
-        height: 60%;
-        background-color: #2e5e86;
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%;
+        height: 80%;
+        /*!*background-color: #2e5e86;*!*/
+        /*margin-right: auto;*/
+        /*margin-left: auto;*/
     }
     .VacotionContentBox{
         width: 100%;
         height: 210px;
-        background-color: #00acc1;
+        /*background-color: #00acc1;*/
         text-align: center;
-        border: 1px solid black;
+        border: 1px solid orangered;
+        border-bottom: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -240,7 +311,7 @@
     .BoxInVacotionContentBox{
         width: 95%;
         height: 87%;
-        background-color: yellow;
+        /*background-color: yellow;*/
         margin: auto;
 
     }
@@ -260,7 +331,7 @@
     .Chapter_Company_Adress_Salaty{
         width: 100%;
         height: 50%;
-        background-color: #0b51c5;
+        /*background-color: #0b51c5;*/
     }
     .Chap_Sal{
         width: 100%;
@@ -269,7 +340,7 @@
     .ChpaterOfVacotion{
         width: auto;
         height: 100%;
-        background-color: #fffacc;
+        /*background-color: #fffacc;*/
         float: left;
         display: inline-block;
         text-align: left;
@@ -280,12 +351,18 @@
         /*font-size: 110%;*/
         /*vertical-align: ;*/
     }
-    .ChpaterOfVacotion h4{
+    .ChpaterOfVacotion a{
         font-size: 135%;
-        font-weight: lighter;
+        text-decoration: none;
+        }
+    .ChpaterOfVacotion a:hover{
+        color: orangered;
+        text-decoration: none;
+        /*font-weight: lighter;*/
+
     }
     .Salary{
-        background-color: #00e5ff;
+        /*background-color: #00e5ff;*/
         width: auto;
         height: 100%;
         float: right;
@@ -302,7 +379,7 @@
         margin-left: 10px;
     }
     .Company_Name{
-        background-color: #00e5ff;
+        /*background-color: #00e5ff;*/
         width: 100%;
         height: 25%;
         display: flex;
@@ -317,7 +394,7 @@
 
     }
     .Adress{
-        background-color: #00e676;
+        /*background-color: #00e676;*/
         width: 100%;
         height: 25%;
         display: flex;
@@ -330,35 +407,62 @@
         font-size: 85%;
         color: gray;
     }
+    /*.circle{*/
+        /*width: 5px;*/
+        /*height: 5px;*/
+        /*!*-webkit-border-radius: 25px;*!*/
+        /*!*-moz-border-radius: 25px;*!*/
+        /*border-radius: 100%;*/
+        /*background: red;*/
+        /*border:0.1px solid black;*/
+        /*display: inline-block;*/
+        /*vertical-align: middle;*/
+    /*}*/
     .dot{
         height: 3px;
         width: 3px;
-        background-color:red;
+        /*background-color:red;*/
         border-radius: 50%;
         border: 0.5px solid black;
     }
     .Description_and_DateMaster{
         width: 100%;
         height: 50%;
-        background-color: orangered;
+        /*background-color: orangered;*/
     }
     .Description{
-        background-color: #0b51c5;
+        /*background-color: #0b51c5;*/
         height: 80%;
         width: 100%;
         overflow: hidden;
     }
     .DateMaster{
-        width: 100%;
-        background-color: #fffacc;
+        width: auto;
+        /*background-color: #fffacc;*/
         height: 20%;
-        display: flex;
-        align-items: center;
+        /*display: flex;*/
+        /*align-items: center;*/
     }
     .DateMaster h6{
         margin: 0;
         padding: 0;
+        display: inline-block;
+        font-size: 110%;
+        color: #0b51c5;
+        margin-right: 12px;
     }
+    .DateMaster h6:hover{
+        color: orangered;
+    }
+    .first{
+        float: left;
+    }
+    .second h6 {
+        font-size: 110%;
+        color: gray;
+        float: right;
+        margin: 0;}
+
 
 
 </style>
