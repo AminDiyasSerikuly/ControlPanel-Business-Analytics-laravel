@@ -1,98 +1,130 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <ul class="navbar-nav mr-auto" id="koli">
-            <li><img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="30" height="30" class="d-inline-block align-top" alt=""></li>
-            <li style="margin-left: 2%;"><h5 id="worker">Worker.kz</h5></li>
-        </ul>
-    </a>
+<div class="header">
+    <div class="topnav">
+        <div class="brand">
+            <a href="" style="text-decoration: none; float: left;">
+                <div class="brand-section">
+                    <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="33.5" height="33.5"  alt="">
+                    <h2 id="worker" style="width: auto; ">Worker.kz</h2>
+                </div>
+            </a>
+        </div>
 
-    <div class="SearchArea" style="">
-        <form class="form-inline">
-            <input class="form-control " type="search" placeholder="Search" aria-label="Search" >
-            <select class="form-control" id="sel1" style="border-radius: 0;">
-                <option>Резюме</option>
-                <option>Вакансий</option>
-                <option>Бизнес</option>
-            </select>
-            <button class="btn btn-primary" type="submit" style="border-radius: 0; margin-left: 1%;">Найти</button>
-        </form>
+        <div class="search-container">
+            <form action="/action_page.php" class="form-inline">
+                <input type="text" class="form-control"   placeholder="Search..">
+                <div class="select-div" style="">
+                    <select class="select-ResumeVacotian form-control" style="text-align: center;">
+                        <option>Резюме</option>
+                        <option>Вакансий</option>
+                        <option>Бизнес</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Найти</button>
+            </form>
+        </div>
+
+        <div class="WordsAndSelects">
+            <div class="WordAndSelectsUnder">
+                <a href="" style="font-size: small">Расширенный поиск</a>
+                <div class="language-select">
+                    <select class="select-language form-control" id="sel1" style="text-align-last:center;">
+                        <option>Русский</option>
+                        <option>Казахский</option>
+                        <option>Английский</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="float-header">
+    <div class="calling-topnav" style="">
+        <div class="header">
+            <div class="topnav">
+                <div class="brand">
+                    <a href="" style="text-decoration: none; float: left;">
+                        <div class="brand-section">
+                            <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="33.5" height="33.5"  alt="">
+                            <h2 id="worker" style="width: auto; ">Worker.kz</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="search-container">
+
+                    <form action="/action_page.php" class="form-inline">
+                        <input type="text" class="form-control"   placeholder="Search..">
+                        <div class="select-div" style="">
+                            <select class="select-ResumeVacotian form-control" style="text-align: center;">
+                                <option>Резюме</option>
+                                <option>Вакансий</option>
+                                <option>Бизнес</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Найти</button>
+                    </form>
+                </div>
+
+                <div class="WordsAndSelects">
+                    <div class="WordAndSelectsUnder">
+                        <a href="" style="font-size: small">Расширенный поиск</a>
+                        <div class="language-select">
+                            <select class="select-language form-control" id="sel1" style="text-align-last:center;">
+                                <option>Русский</option>
+                                <option>Казахский</option>
+                                <option>Английский</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
-    <ul class="navbar-nav " id="searcher" style="" >
-        <li class="nav-item active">
-            <a class="nav-link"  href="#" style="font-size: 80%;">Расширенный поиск</a>
-        </li>
-        <li class="nav-item" style="margin-left: 5%;">
-            <select class="selectLanguage"  style="margin-top: 8px;">
-                <option>Русский</option>
-                <option>Казахский</option>
-                <option>Английский</option>
-            </select>
-        </li>
-    </ul>
-</nav>
-
-
-
-<style>
-    .navbar-brand{
-        margin-left: 3%;
-    }
-    h5{
-        font-size: 115%;
-        color: #0e4377;
-    }
-
-    .SearchArea form{
-        margin-left: auto;
-        margin-right: auto;
-        width: 99%;
-        /*text-align: center;*/
-    }
-    .SearchArea input[type="search"]{
-        width: 70%;
-    }
-    .navbar-nav{
-        width: 25%; margin-left: 5%
-    }
-    .SearchArea{
-        width:50%; margin-left: 3%;
-    }
-    @media(max-width:1350px){
-        .SearchArea input[type="search"]{
-           width: 50%;
-       }}
-
-    @media(max-width:1200px){
-        .navbar-nav{
-            width: 30%; margin-left: 0;
-        }
-        .selectLanguage{
-            font-size:73%;
-        }
-        .SearchArea{
-            width: 40%;
-            margin-left: 0;
-        }
-    }
-    @media(max-width:1010px){
-
-        #searcher{
-                 display: none;
-             }
-        .SearchArea{
-            display: none;
-        }
-        a.navbar-brand{
-            width: 100%;
-            text-align: center;
-        }
-        #koli{
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-        }
-
-    }
-</style>
-
+    <div class="under-float">
+        <div class="image">
+            <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" id="invisible-img-icon" width="25" height="25" style="
+            margin-top: 4.5px;float: left;margin-right: 1%;">
+        </div>
+        <div class="dropdowns">
+            <div class="dropdown">
+                <button class="dropbtn" style="padding-left: 0;">Ищу работу</button>
+                <div class="dropdown-content">
+                    <a href="#">Создать резюме </a>
+                    <a href="#">Как улучшить резюме</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Ищу сотрудников</button>
+                <div class="dropdown-content">
+                    <a href="#">Разместить вакансию</a>
+                    <a href="#">Праис лист</a>
+                    <a href="#">Описание услуг</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Помощь</button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Компании</button>
+                <div class="dropdown-content">
+                    <a href="#">Каталог компаний</a>
+                    <a href="#">Работа по профессиям</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Проекты</button>
+                <div class="dropdown-content">
+                    <a href="#">Полезная ирформация </a>
+                </div>
+            </div>
+            <div class="mini-search" href="" style="">
+                {{--<input type="text"  name="search" placeholder=''>--}}
+                <button type="submit" name="topnav-caller" >Найти <span class="glyphicon glyphicon-search"></span></button>
+            </div>
+        </div>
+    </div>
+</div>

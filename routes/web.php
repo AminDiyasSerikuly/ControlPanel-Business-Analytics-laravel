@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.header-inworker');
+    return view('Welcome-viewer');
+});
+Route::get('/Show-List', function () {
+    return view('Show-List');
 });

@@ -6,33 +6,36 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/min/inworker-header.css">
+
 </head>
 <body>
 
-<div class="container-fluid" >
+<div class="container-fluid1" >
     <div class="header">
         <div class="topnav">
-
             <div class="brand">
-                <a href="" style="text-decoration: none;">
+                <a href="" style="text-decoration: none; float: left;">
                     <div class="brand-section">
-                        <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="40" height="40"  alt="">
+                        <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="33.5" height="33.5"  alt="">
                         <h2 id="worker" style="width: auto; ">Worker.kz</h2>
                     </div>
                 </a>
             </div>
 
             <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
+
+                <form action="/action_page.php" class="form-inline">
+                    <input type="text" class="form-control"   placeholder="Search..">
                     <div class="select-div" style="">
-                        <select class="select-ResumeVacotian" id="sel1">
+                        <select class="select-ResumeVacotian form-control" style="text-align: center;">
                             <option>Резюме</option>
                             <option>Вакансий</option>
                             <option>Бизнес</option>
                         </select>
                     </div>
-                    <button type="submit" >Найти</button>
+                    <button type="submit" class="btn btn-primary">Найти</button>
                 </form>
             </div>
 
@@ -40,7 +43,7 @@
                 <div class="WordAndSelectsUnder">
                     <a href="" style="font-size: small">Расширенный поиск</a>
                     <div class="language-select">
-                        <select class="select-language" id="sel1" style="">
+                        <select class="select-language form-control" id="sel1" style="text-align-last:center;">
                             <option>Русский</option>
                             <option>Казахский</option>
                             <option>Английский</option>
@@ -56,25 +59,26 @@
             <div class="header">
                 <div class="topnav">
                     <div class="brand">
-                        <a href="" style="text-decoration: none;">
+                        <a href="" style="text-decoration: none; float: left;">
                             <div class="brand-section">
-                                <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="40" height="40"  alt="">
+                                <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" width="33.5" height="33.5"  alt="">
                                 <h2 id="worker" style="width: auto; ">Worker.kz</h2>
                             </div>
                         </a>
                     </div>
 
                     <div class="search-container">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="Search.." name="search">
+
+                        <form action="/action_page.php" class="form-inline">
+                            <input type="text" class="form-control"   placeholder="Search..">
                             <div class="select-div" style="">
-                                <select class="select-ResumeVacotian" id="sel1">
+                                <select class="select-ResumeVacotian form-control" style="text-align: center;">
                                     <option>Резюме</option>
                                     <option>Вакансий</option>
                                     <option>Бизнес</option>
                                 </select>
                             </div>
-                            <button type="submit" >Найти</button>
+                            <button type="submit" class="btn btn-primary">Найти</button>
                         </form>
                     </div>
 
@@ -82,7 +86,7 @@
                         <div class="WordAndSelectsUnder">
                             <a href="" style="font-size: small">Расширенный поиск</a>
                             <div class="language-select">
-                                <select class="select-language" id="sel1" style="">
+                                <select class="form-control" id="sel1" style="text-align-last:center;">
                                     <option>Русский</option>
                                     <option>Казахский</option>
                                     <option>Английский</option>
@@ -90,17 +94,18 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
 
         <div class="under-float">
             <div class="image">
-                <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" id="invisible-img-icon" width="25" height="25" style="margin-top: 4.5px;float: left; margin-left: 1%;">
+                <img src="http://leanin.org/partners/ui/modules/common/images/notification-icon.png" id="invisible-img-icon" width="25" height="25" style="margin-top: 4.5px;float: left;margin-right: 1%;">
             </div>
             <div class="dropdowns">
                 <div class="dropdown">
-                    <button class="dropbtn">Ищу работу</button>
+                    <button class="dropbtn" style="padding-left: 0;">Ищу работу</button>
                     <div class="dropdown-content">
                         <a href="#">Создать резюме </a>
                         <a href="#">Как улучшить резюме</a>
@@ -205,7 +210,7 @@
                 <div class="chapter">
                     <h3>Работа в компаниях Казахстана</h3>
                 </div>
-                <div class="left-list-of-company" style="border: 1px solid black;">
+                <div class="left-list-of-company">
                     <div class="item_company-1">
                         <ul class="inleft-list-item-ul">
                             <li class="inleft-list-item-ul-li">
@@ -327,7 +332,7 @@
                     <h3>Вакансии дня в Казахстане</h3>
                 </div>
                 <div class="right-lists-of-company">
-                <div class="right-list-of-company-column_1" style="border: 1px solid black;">
+                <div class="right-list-of-company-column_1" >
                     <ul class="inright-list-item-ul">
                         <li class="inright-list-item-ul-li">
                             <div class="inright-list-item-ul-li-div">
@@ -397,7 +402,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="right-list-of-company-column_2" style="border: 1px solid black;">
+                <div class="right-list-of-company-column_2" >
                     <ul class="inright-list-item-ul">
                         <li class="inright-list-item-ul-li">
                             <div class="inright-list-item-ul-li-div">
@@ -467,7 +472,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="right-list-of-company-column_3" style="border: 1px solid black;">
+                <div class="right-list-of-company-column_3" >
                     <ul class="inright-list-item-ul-1">
                         <li class="inright-list-item-ul-li">
                             <div class="inright-list-item-ul-li-div">
@@ -543,9 +548,10 @@
             </div>
             </div>
             <div class="Main-by-town">
-            <div class="chapter-by-city">
-                <h3>Работа по профессиям в Казахстане</h3>
-            </div>
+                    <div class="chapter">
+                        <h3>Работа по профессиям в Казахстане</h3>
+                    </div>
+
             <div class="proffosions">
                 <div class="by-proffosion-1">
                     <ul>
@@ -616,6 +622,7 @@
                 </div>
             </div>
             </div>
+
         </div>
     </section>
 
@@ -630,857 +637,13 @@
     </footer>
 </div>
 
-
-
 </body>
 </html>
 
 <style>
-
-    {{-- Global --}}
-    * {box-sizing: border-box;}
-
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: transparent;
-    }
-
-    /*Main Areas */
-
-    .container-fluid{
-        /*background-color: #fffacc;*/
-        width: 100%;
-        height: 1000px;
-    }
-    h2{
-        padding: 0;
-        margin: 0;
-    }
-
-    /*Header CSS*/
-
-    .header{
-        width: 100%;
-        height: 80px;
-        background-color: #feffe5;
-        /*border: 1px solid black;*/
-        text-align: center;
-    }
-    .topnav{
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-        width: 1250px;
-        /*background-color: #00c851;*/
-        /*border: 1px solid black;*/
-        text-align: center;
-
-    }
-
-    /*Brnad section css*/
-    .brand{
-        width: auto;
-        height: 100%;
-        /*border: 1px solid white;*/
-    }
-    .brand-section{
-        width: auto;
-        height: auto;
-        margin-top: 19px;
-    }
-    .brand img, .brand h2{
-        display: inline-block;
-        vertical-align: middle;
-    }
-    .brand h2{
-        color: #3e2723;
-    }
-
-    /*Search container css*/
-
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-    }
-
-    .search-container{
-        width: auto;
-        height: 100%;
-        /*border: 1px solid white;*/
-        margin-left: 2%;
-    }
-
-    .search-container form{
-        /*border: 1px solid white;*/
-        margin-top: 21px;
-    }
-
-    .search-container input[type=text]{
-        width: 550px;
-        padding: 8px;
-        font-size: 17px;
-        border: 1px solid black;
-    }
-
-    .select-ResumeVacotian{
-        padding: 8px;
-        font-size: 100%;
-    }
-    .search-container button {
-        padding: 9px 10px;
-        background: #09afff;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-        color: white;
-    }
-    .mini-search{
-        margin-left: 2%;
-        float: left;
-    }
-    .mini-search input[type=text]{
-        width: 150px;
-        padding: 5px;
-        font-size: 17px;
-        border: 1px solid black;
-        margin-top: 1.5px;
-    }
-    .mini-search button{
-        padding: 3px 3px;
-        background: #09afff;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-        color: white;
-    }
-    .search-container input[type=text],.select-div,.search-container button{
-        display: inline-block;
-    }
-
-    /*Words and language*/
-
-    .WordsAndSelects{
-        width:auto;
-        height: 100%;
-        /*border: 1px solid white;*/
-        margin-left: 32px;
-    }
-
-    .WordAndSelectsUnder{
-        width: auto;
-        /*border: 1px solid white;*/
-        margin-top: 25px;
-    }
-
-    .WordsAndSelects a {
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        margin: 0;
-        padding: 0;
-    }
-    .WordsAndSelects a:hover{
-        color: blue;
-    }
-
-    .select-language{
-        padding: 3px ;
-        font-size: 100%;
-        margin-left: 16px;
-    }
-    .WordsAndSelects a,.language-select{
-        display: inline-block;
-        margin: 0;
-    }
-
-
-
-    /*Inline block of main*/
-
-    .search-container,.brand,.WordsAndSelects{
-        display: inline-block;
-        vertical-align: top;
-
-    }
-
-
-    /*Float - header css*/
-
-    .float-header{
-        overflow: hidden;
-        width: 100%;
-        height: auto;
-        background-color: #3e2723;
-    }
-    /*.calling-topnav{*/
-    /*display: none;*/
-    /*}*/
-
-
-    .under-float{
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-        width: 1250px;
-        /*background-color: #00c851;*/
-        /*border: 1px solid black;*/
-        text-align: center;
-    }
-
-    .dropdowns{
-        height: 100%;
-        width: auto;
-        /*background-color: #00acc1;*/
-        margin-left: 0.5%;
-        z-index: 1;
-        /*border: 1px solid white;*/
-    }
-
-
-
-    .sticky {
-        position: fixed;
-        width: 100%;
-        left: 0;
-        top: 0;
-        /*z-index: 100;*/
-        border-top: 0;
-    }
-
-
-    .dropbtn {
-        background-color: transparent;
-        color: white;
-        padding:  9px;
-        font-size: 13px;
-        border: none;
-        /*cursor: pointer;*/
-    }
-
-    .dropdown {
-        float: left;
-        /*background-color: orange;*/
-        width: auto;
-        height: auto;
-        margin-left: 2px;
-        z-index: 1;
-        /*position: relative;*/
-        /*display: inline-block;*/
-    }
-
-    .dropdown-content {
-        display: none;
-        position: fixed;
-        background-color: white;
-        min-width: 160px;
-        z-index: 1;
-    }
-
-    .dropdown-content a {
-        color: black;
-        font-size: 80%;
-        text-align: left;
-        padding: 10px 10px;
-        text-decoration: none;
-        display: block;
-    }
-
-    .dropdown-content a:hover {background-color: #f1f1f1}
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    .dropdown:hover .dropbtn {
-        background-color: #ff2900;
-    }
-
-    /* Section css*/
-
-    .main-imageandLog-in{
-        width: 100%;
-        height: 350px;
-        background-image: url("https://static1.bigstockphoto.com/2/1/2/large1500/212071570.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .undersection{
-        height: 100%;
-        width: 1250px;
-        /*background-color: #00c851;*/
-        margin-left: auto;
-        margin-right: auto;
-        /*border: 1px solid white;*/
-    }
-    .half-undersection,.half-undersection-fomAndIndicator{
-        height: 100%;
-        width: 49.5%;
-        /*background-color: orange;*/
-        /*border: 1px solid white;*/
-        display: inline-block;
-        vertical-align: top;
-    }
-    .Chapter{
-        width: 100%;
-        height: 50%;
-        /*background-color: black;*/
-        /*border: 1px solid white;*/
-    }
-
-
-
-    .TwoButton{
-        width: 100%;
-        height: 50%;
-        /*background-color: #00acc1;*/
-        /*border: 1px solid white;*/
-
-
-    }
-    .Buttons{
-        width: auto;
-        height: auto;
-        /*border: 1px solid red;*/
-        text-align: center;
-        margin-top: 70px;
-    }
-    .Buttons button{
-        border: 2px solid white;
-        padding: 10px;
-        border-radius: 2%;
-        color: white;
-        /*background-color: white;*/
-        /*font-family: "Arial Black";*/
-        font-size: 100%;
-        background-color: transparent;
-
-    }
-    .Buttons button:hover{
-        background-color: white;
-        color: black;
-    }
-
-    .AddVacancies{
-        margin-left: 3%;
-    }
-    .header-word{
-        /*border: 1px solid white;*/
-        height: auto;
-        width: auto;
-        margin-top: 10%;
-        float: right;
-        margin-right: 4%;
-    }
-    .header-word h1{
-        font-size: 350%;
-        font-family: Helvetica;
-        margin: 0;
-        padding: 0;
-        color: white;
-    }
-
-    .fitters{
-        width: 40%;
-        height: 100%;
-        /*background-color: #3e2723;*/
-        /*border: 1px solid red;*/
-    }
-    .indicatorSet{
-        /*border: 1px solid orangered;*/
-        height: 80%;
-        margin-top: 7%;
-    }
-    #HowManyCompany,#HowManyResume,#HowManyVacancy{
-        background-color: rgba(0,0,0,0.4);
-        border: 1px solid white;
-        margin-top: 12%;
-        height: 25%;
-    }
-    #HowManyCompany h1,#HowManyResume h1,#HowManyVacancy h1 {
-        float: left;
-        color: white;
-        font-family: "Arial";
-        font-size: 200%;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-    #HowManyCompany h5,#HowManyResume h5,#HowManyVacancy h5 {
-        float: left;
-        color: white;
-        font-family: "Arial";
-        font-size: 100%;
-        margin: 0;
-        padding: 0;
-
-    }
-    .form{
-        width: 58.6%;
-        height: 100%;
-        /*background-color: #00e676;*/
-        /*border: 1px solid red;*/
-    }
-    .formSet{
-        height: 77.6%;
-        width: 75%;
-        /*background-color: white;*/
-        margin-left: auto;
-        /*margin-right: auto;*/
-        margin-top: 8.7%;
-        background-color: rgba(0,0,0,0.4);
-        /*background-color: #00acc1;*/
-        border: 1px solid black;
-        /*margin-top: 10%;*/
-    }
-    .inputs{
-
-        width: 100%;
-        height: 50%;
-        /*background-color: #0c5460;*/
-        /*border: 1px solid red;*/
-        margin-top: 6%;
-    }
-    .inputs input[type='text']{
-        width: 90%;
-        padding: 10px;
-        margin-top: 8%;
-        margin-left: 4.5%;
-    }
-    .formSet input[value='Submit']{
-        padding: 10px 20px;
-        border: 2px solid white;
-        color: white;
-        font-size: 100%;
-        margin-top: 1%;
-        background-color: transparent;
-        margin-left: 5%;
-    }
-    .formSet input[value='Submit']:hover{
-        background-color: #0c5460;
-    }
-
-    .RememberMe{
-        width: auto;
-        height: auto;
-        /*background-color: greenyellow;*/
-    }
-    .RememberMe input[type='checkbox']{
-        top: 0;
-        left: 0;
-        height: 18px;
-        width: 18px;
-        /*background-color: #eee;*/
-        margin-left: 5.5%;
-    }
-
-
-    .form,.fitters{
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .main-section{
-        height: auto;
-        background-color: #00acc1;
-        border: 1px solid red;
-    }
-    .main-section a{
-        text-decoration: none;
-        display: block;
-    }
-    .main-section a:hover{
-        color: red;
-    }
-    .MainSelects{
-        width: 1250px;
-        height: auto;
-        background-color: #00e676;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .left-main{grid-area: left-main}
-    .right-main{grid-area: right-main}
-    .Main-companyAndVacotion{
-        height: auto;
-        display: grid;
-        grid-template-areas: 'left-main right-main';
-        grid-template-columns: 25% 75%;
-    }
-    .left-main{
-        display: block;
-        width: 100%;
-        height: auto;
-        background-color: #00e5ff;
-    }
-    .left-main,.right-main{
-        display: inline-block;
-        vertical-align: top;
-    }
-    .chapter{
-        width: 100%;
-        height: 50px;
-        background-color: yellow;
-    }
-    .chapter h3{
-        float: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 110%;
-        margin-bottom: 0;
-        padding: 0;
-    }
-    .item_company-1{
-        height: auto;
-    }
-    .item_company-1{grid-area: item1}
-    .item_company-2{grid-area: item2}
-
-    .left-list-of-company{
-        display: grid;
-        /*grid-template-rows: 50%;*/
-        grid-template-columns: 100%;
-        grid-template-areas: 'item1'
-                             'item2';
-        width: 100%;
-        height: 85%;
-        background-color: yellowgreen;
-        float: left;
-    }
-
-
-    .inleft-list-item-ul{
-        margin-bottom: 0;
-        padding: 0;
-    }
-    .inleft-list-item-ul-li-div{
-        width: 100%;
-        height: auto;
-        border: 1px solid moccasin;
-    }
-    .inleft-list-item-ul-li{
-        list-style-type: none;
-        border: 1px solid orangered;
-        margin-top: 3%;
-    }
-    .inleft-list-item-ul-li-div-spandiv{
-        border: 1px solid red;
-        width: 70%;
-        display: inline-block;
-
-        /*float: left;*/
-    }
-    .inleft-list-item-ul-li-div-span2{
-        border: 1px solid red;
-        float: right;
-        margin-right: 4%;
-        font-size: 80%;
-
-    }
-    .inleft-list-item-ul-li-div-span{
-        text-decoration: none;
-        color: black;
-        font-size: 95%;
-        font-family: Arial, Helvetica, sans-serif ;
-    }
-
-
-    .right-main h5{
-        text-decoration: none;
-        font-size: 100%;
-        font-weight: lighter;
-        margin: 0;
-        margin-top: 1%;
-    }
-
-    .right-list-of-company-column_1{grid-area: col_com-1}
-    .right-list-of-company-column_2{grid-area: col_com-2}
-    .right-list-of-company-column_3{grid-area: col_com-3}
-
-    .right-lists-of-company{
-        display: grid;
-        grid-template-columns: auto auto auto ;
-        grid-template-areas: "col_com-1 col_com-2 col_com-3";
-        width: 100%;
-        /*height: 100%;*/
-        background-color: orangered;
-    }
-    .inright-list-item-ul-1{grid-area: ul1}
-    .inright-list-item-ul-1{grid-area: ul2}
-    .right-list-of-company-column_3{
-        display: grid;
-        grid-template-areas: "ul1"
-                            "ul2";
-        grid-template-rows: 50%;
-        grid-template-columns: 100%;
-
-    }
-
-    .inright-list-item-ul-li{
-        margin-top: 5%;
-    }
-    .inright-list-item-ul-li-div-a-small{
-        font-size: small;
-        color: grey;
-        margin-top: 1%;
-    }
-    .inright-list-item-ul,.inright-list-item-ul-1,.inright-list-item-ul-2{
-        list-style-type: none;
-        margin-bottom: 0;
-        margin-top: 0;
-        padding: 0;
-    }
-    .by-proffosion-1{grid-area: prof1}
-    .by-proffosion-2{grid-area: prof2}
-    .by-proffosion-2_1{grid-area: prof2-1}
-    .by-proffosion-2_2{grid-area: prof2-2}
-    .by-proffosion-3{grid-area: prof3}
-    .by-proffosion-4{grid-area: prof4}
-    .proffosions{
-        display: grid;
-        grid-template-areas: 'prof1 prof2 prof3 prof4';
-        grid-template-columns: 25%;
-        grid-template-rows: 100%;
-        width: 1250px;
-        height: auto;
-        background-color: yellow;
-    }
-    .by-proffosion-2{
-        display: grid;
-        grid-template-rows: 50% 50%;
-        grid-template-columns: 100%;
-        grid-template-areas:'prof2-1'
-                            'prof2-2';
-    }
-
-    .by-proffosion-2_1,.by-proffosion-2_2{
-        /*display: none;*/
-    }
-    div[class*="by-proffosion"]{
-        height:100%;
-        background-color: #00e5ff;
-        margin: 0;
-        padding: 0;
-        border: 1px solid blue;
-        /*grid-row-end: span 2;*/
-    }
-
-
-
-
-    div[class*="by-proffosion"] ul{
-        width: 100%;
-        height: 100%;
-        background-color: rgba(211,211,12,0.4);
-        margin: 0;
-        padding: 0;
-        border: 1px solid red;
-        float: left;
-    }
-
-    div[class*="by-proffosion"] ul li{
-        margin-top: 3%;
-        list-style-type: none;
-        width: 80%;
-        border: 1px solid black;
-    }
-
-
-
-
-
-
-
-
-
-
-    /*footer*/
-
-    footer{
-        padding: 50px;
-        background-color: #00e676;
-        text-align: center;
-        margin-top: 1%;
-    }
-    .icons{
-        width: auto;
-        height: auto;
-    }
-    .footer-copyright{
-        background-color: #0c5460;
-        height: auto;
-    }
-
-    .Formum-Help-TopResume{
-        width: 100%;
-        height: 80px;
-        background-color: white;
-    }
-    .Three-set-div{
-        margin-right: auto;
-        margin-left: auto;
-        width: 1250px;
-        height: 100%;
-        background-color: orange;
-    }
-    .Three-set-div, .Three-set-div > div {
-        -webkit-box-sixing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
-
-
-
-    /*Media design*/
-
-    @media screen and (max-width: 1300px) {
-        .search-container input[type=text]{
-            width: 300px;
-        }
-        .topnav{
-            width: 1000px;
-        }
-        /*.in-topnav{*/
-        /*width: auto;*/
-        /*height: auto;*/
-
-        /*}*/
-        .under-float{
-            width: 1000px;
-        }
-        .undersection{
-            width: 1000px;
-        }
-        .fitters{
-            display: none;
-        }
-        .half-undersection{
-            width: 70%;
-        }
-        .half-undersection-fomAndIndicator{
-            width: 29%;
-        }
-        .form{
-            width: 100%;
-        }
-        .formSet{
-            width: 95%;
-        }
-        .MainSelects{
-            width: 1000px;
-        }
-        .proffosions{
-            display: grid;
-            width: 1000px;
-            grid-template-areas: 'prof1 prof2 prof3';
-            grid-template-columns: 33.333% 33.333% 33.333%;
-        }
-
-        div[class="by-proffosion-4"]{
-            display: none;
-        }
-        .Main-companyAndVacotion{
-            display: grid;
-            grid-template-areas: 'left-main right-main';
-            grid-template-columns: 33.333% 66.677%;
-        }
-        .right-lists-of-company{
-            display: grid;
-            grid-template-columns: 50%;
-            grid-template-rows: 50%;
-            grid-template-areas: "col_com-1 col_com-2"
-                                 "col_com-3 col_com-3";
-            width: 100%;
-            height: auto;
-            background-color: orangered;
-        }
-        .right-list-of-company-column_3{
-            display: grid;
-            grid-template-areas: "ul1 ul2";
-            grid-template-rows: 100%;
-            grid-template-columns: 50%;
-
-        }
-
-
-
-    }
-    @media screen and (max-width: 1020px) {
-        .topnav{
-            width: 653px;
-            height: auto;
-        }
-        .WordsAndSelects{
-            width: 100%;
-            margin-left: 0;
-        }
-        .WordAndSelectsUnder{
-            margin-right: 1%;
-            margin-top: 0;
-            float: right;
-        }
-        .select-language{
-            padding: 0px 5px;
-        }
-        .header{
-            height: auto;
-        }
-        .under-float{
-            width: 690px;
-        }
-        .undersection{
-            width: 690px;
-        }
-        .half-undersection{
-            width: 100%;
-        }
-        .half-undersection-fomAndIndicator{
-            display: none;
-        }
-        .MainSelects{
-            width: 690px;
-        }
-        .by-proffosion-2{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 100%;
-            grid-template-areas:'prof2-1 prof2-2';
-            }
-
-        .proffosions{
-            display: grid;
-            width: auto;
-            height: auto;
-            grid-template-areas: 'prof1  prof3'
-                                 'prof2  prof2';
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 50% 50%;
-        }
-        .left-main{
-            width: 100%;
-        }
-        .left-list-of-company{
-            display: grid;
-            grid-template-columns: 50%;
-            grid-template-areas: 'item1 item2';
-            width: 100%;
-            height: auto;
-            background-color: yellowgreen;
-            float: left;
-        }
-        .Main-companyAndVacotion{
-            display: grid;
-            grid-template-areas: 'left-main' 'right-main';
-            grid-template-columns: 100% 100%;
-        }
-    }
-
-
+    /*.chapter h3,.inleft-list-item-ul-li-div-span,body{font-family:Arial,Helvetica,sans-serif}body,h2{padding:0;margin:0}.brand,.search-container{-ms-grid-row:1;height:100%}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{background-color:transparent}.container-fluid{width:100%;height:1000px}.brand-section,.search-container form{-webkit-margin-before:1.6em;margin-block-start:1.6em;-webkit-margin-after:1.6em;margin-block-end:1.6em}.header{width:100%;height:80px;background-color:#feffe5;text-align:center}.WordsAndSelects{-ms-grid-row:1;-ms-grid-column:3;grid-area:WAS;float:right}.brand{-ms-grid-column:1;grid-area:brand}.search-container{-ms-grid-column:2;grid-area:SC}@media screen and (max-width:1020px){.WordsAndSelects{-ms-grid-row:2;-ms-grid-column:1;-ms-grid-column-span:3}.brand{-ms-grid-row:1;-ms-grid-column:1}.search-container{-ms-grid-row:1;-ms-grid-column:2;-ms-grid-column-span:2}}.topnav{display:-ms-grid;display:grid;grid-template-areas:"brand  SC WAS";margin-left:auto;margin-right:auto;height:100%;width:1250px}.brand-section{float:left}.brand h2,.brand img{display:inline-block;vertical-align:middle}.brand h2{color:#3e2723;font-size:130%}select{-webkit-appearance:none;-moz-appearance:none;appearance:none}.search-container form{height:auto}.search-container input[type=text]{width:550px;-webkit-border-radius:0;border-radius:0}.select-ResumeVacotian{font-size:100%;-webkit-border-radius:0;border-radius:0}.search-container button{color:#fff;-webkit-border-radius:0;border-radius:0}.mini-search{margin-left:2%;float:left}.mini-search input[type=text]{width:150px;padding:6px;font-size:17px;border:1px solid #000}.mini-search button{padding:6.3px 3px;background:#09afff;font-size:17px;border:none;cursor:pointer;color:#fff}.search-container button,.search-container input[type=text],.select-div{display:inline-block}.WordsAndSelects{height:100%}.WordAndSelectsUnder{width:auto;height:51.1%;-webkit-margin-before:1.45em;margin-block-start:1.45em;-webkit-margin-after:1.45em;margin-block-end:1.45em}.WordsAndSelects a{color:#000;text-decoration:none;font-size:17px;padding:0}.WordsAndSelects a:hover{color:#00f}.select-language{font-size:80%;height:auto;margin-left:16px;-webkit-border-radius:0;border-radius:0;width:auto;margin-top:5%}.WordsAndSelects a,.language-select{display:inline-block;margin:0}.under-float,.undersection{margin-left:auto;margin-right:auto}.WordsAndSelects,.brand,.search-container{display:inline-block;vertical-align:top}.float-header{overflow:hidden;width:100%;background-color:#3e2723;position:absolute}.under-float{height:100%;width:1250px;text-align:center}.dropdowns{height:100%;width:90%;z-index:1;float:left}.sticky{position:fixed;width:100%;left:0;top:0;border-top:0}.dropbtn{background-color:transparent;color:#fff;padding:9px;font-size:13px;border:none}.dropdown{float:left;width:auto;height:auto;z-index:1}.dropdown-content{display:none;position:fixed;background-color:rgba(0,0,0,.9);min-width:160px;z-index:1}.dropdown-content a{color:#fff;font-size:80%;text-align:left;padding:10px;text-decoration:none;display:block}.Buttons,footer{text-align:center}.dropdown-content a:hover{background-color:red}.dropdown:hover .dropdown-content{display:block}.dropdown:hover .dropbtn{background-color:#ff2900}.main-imageandLog-in{width:100%;height:350px;margin-top:33px;background-image:url(https://static1.bigstockphoto.com/2/1/2/large1500/212071570.jpg);background-repeat:no-repeat;background-position:center;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}.undersection{height:100%;width:1250px}.half-undersection,.half-undersection-fomAndIndicator{height:100%;width:49.5%;display:inline-block;vertical-align:top}.Chapter,.TwoButton{width:100%;height:50%}.Buttons,.header-word{height:auto;width:auto}.Buttons{margin-top:70px}.Buttons button{border:2px solid #fff;padding:10px;-webkit-border-radius:2%;border-radius:2%;color:#fff;font-size:100%;background-color:transparent}.Buttons button:hover{background-color:#fff;color:#000}.AddVacancies{margin-left:3%}.header-word{margin-top:10%;float:right;margin-right:4%}.header-word h1{font-size:400%;font-family:Helvetica;margin:0;padding:0;color:#fff}.fitters{width:40%;height:100%}.indicatorSet{height:80%;margin-top:7%}#HowManyCompany,#HowManyResume,#HowManyVacancy{background-color:rgba(0,0,0,.4);border:1px solid #fff;margin-top:12%;height:25%}#HowManyCompany h1,#HowManyResume h1,#HowManyVacancy h1{float:left;color:#fff;font-family:Arial;font-size:200%;margin:0;padding:0;width:100%}#HowManyCompany h5,#HowManyResume h5,#HowManyVacancy h5{float:left;color:#fff;font-family:Arial;font-size:100%;margin:0;padding:0}.form{width:58.6%;height:100%}.formSet{height:77.6%;width:75%;margin-left:auto;margin-top:8.7%;background-color:rgba(0,0,0,.4);border:1px solid #000}.inputs{width:100%;height:50%;margin-top:6%}.inputs input[type=text]{width:90%;padding:10px;margin-top:8%;margin-left:4.5%}.formSet input[value=Submit]{padding:10px 20px;border:2px solid #fff;color:#fff;font-size:100%;margin-top:1%;background-color:transparent;margin-left:5%}.left-main,.right-main{-ms-grid-row:1;border-right:1px solid grey;border-top:1px solid grey}.formSet input[value=Submit]:hover{background-color:#0c5460}.RememberMe{width:auto;height:auto}.RememberMe input[type=checkbox]{top:0;left:0;height:18px;width:18px;margin-left:5.5%}.fitters,.form{display:inline-block;vertical-align:top}.main-section a{text-decoration:none;display:block}.main-section a:hover{color:red}.MainSelects{width:1250px;height:auto;background-color:#feffe5;margin-left:auto;margin-right:auto}.Main-by-town{border:1px solid grey;margin-top:3%}.left-main{-ms-grid-column:1;grid-area:left-main;border-left:1px solid grey;width:100%;height:auto}.right-main{-ms-grid-column:2;grid-area:right-main}@media screen and (max-width:1300px){.left-main{-ms-grid-row:1;-ms-grid-column:1}.right-main{-ms-grid-row:1;-ms-grid-column:2}}@media screen and (max-width:1020px){.left-main{-ms-grid-row:1;-ms-grid-column:1}.right-main{-ms-grid-row:2;-ms-grid-column:1}}.Main-companyAndVacotion{height:auto;display:-ms-grid;display:grid;grid-template-areas:'left-main right-main';-ms-grid-columns:25% 75%;grid-template-columns:25% 75%;border-bottom:1px solid grey}.left-main,.right-main{display:inline-block;vertical-align:top}.chapter{width:100%;height:50px;border-bottom:1px solid gray}.chapter h3{float:left;font-size:110%;margin-bottom:0;padding:0}.item_company-1{height:auto;-ms-grid-row:1;-ms-grid-column:1;grid-area:item1}.item_company-2{-ms-grid-row:2;-ms-grid-column:1;grid-area:item2}@media screen and (max-width:1020px){.item_company-1{-ms-grid-row:1;-ms-grid-column:1}.item_company-2{-ms-grid-row:1;-ms-grid-column:2}}.left-list-of-company{display:-ms-grid;display:grid;-ms-grid-columns:100%;grid-template-columns:100%;grid-template-areas:'item1' 'item2';width:100%;height:85%;float:left}.inleft-list-item-ul{margin-bottom:0;padding:0}.inleft-list-item-ul-li-div{width:100%;height:auto}.inleft-list-item-ul-li{list-style-type:none;margin-top:3%}.inleft-list-item-ul-li-div-spandiv{width:70%;display:inline-block}.inleft-list-item-ul-li-div-span2{background-color:rgba(0,0,0,.1);float:right;margin-right:4%;font-size:80%}.inleft-list-item-ul-li-div-span{text-decoration:none;color:#000;font-size:95%}.right-main h5{text-decoration:none;font-size:100%;font-weight:lighter;margin:1% 0 0}.right-list-of-company-column_1{-ms-grid-row:1;-ms-grid-column:1;grid-area:col_com-1}.right-list-of-company-column_2{-ms-grid-row:1;-ms-grid-column:2;grid-area:col_com-2}.right-list-of-company-column_3{-ms-grid-row:1;-ms-grid-column:3;grid-area:col_com-3}@media screen and (max-width:1300px){.right-list-of-company-column_1{-ms-grid-row:1;-ms-grid-column:1}.right-list-of-company-column_2{-ms-grid-row:1;-ms-grid-column:2}.right-list-of-company-column_3{-ms-grid-row:2;-ms-grid-column:1;-ms-grid-column-span:2}}.right-lists-of-company{display:-ms-grid;display:grid;-ms-grid-columns:auto auto auto;grid-template-columns:auto auto auto;grid-template-areas:"col_com-1 col_com-2 col_com-3";width:100%}.inright-list-item-ul-1{-ms-grid-row:2;-ms-grid-column:1;grid-area:ul2}@media screen and (max-width:1300px){.inright-list-item-ul-1{-ms-grid-row:1;-ms-grid-column:2}}.right-list-of-company-column_3{display:-ms-grid;display:grid;grid-template-areas:"ul1" "ul2";-ms-grid-rows:50%;grid-template-rows:50%;-ms-grid-columns:100%;grid-template-columns:100%}.inright-list-item-ul-li{margin-top:5%}.inright-list-item-ul-li-div-a-small{font-size:small;color:grey;margin-top:1%}.inright-list-item-ul,.inright-list-item-ul-1,.inright-list-item-ul-2{list-style-type:none;margin-bottom:0;margin-top:0;padding:0}.by-proffosion-1{-ms-grid-row:1;-ms-grid-column:1;grid-area:prof1}.by-proffosion-2{-ms-grid-row:1;-ms-grid-column:2;grid-area:prof2}.by-proffosion-2_1{-ms-grid-row:1;-ms-grid-column:1;grid-area:prof2-1}.by-proffosion-2_2{-ms-grid-row:2;-ms-grid-column:1;grid-area:prof2-2}@media screen and (max-width:1020px){.by-proffosion-2_1{-ms-grid-row:1;-ms-grid-column:1}.by-proffosion-2_2{-ms-grid-row:1;-ms-grid-column:2}}.by-proffosion-3{-ms-grid-row:1;-ms-grid-column:3;grid-area:prof3}@media screen and (max-width:1300px){.by-proffosion-1{-ms-grid-row:1;-ms-grid-column:1}.by-proffosion-2{-ms-grid-row:1;-ms-grid-column:2}.by-proffosion-3{-ms-grid-row:1;-ms-grid-column:3}}@media screen and (max-width:1020px){.by-proffosion-1{-ms-grid-row:1;-ms-grid-column:1}.by-proffosion-2{-ms-grid-row:2;-ms-grid-column:1;-ms-grid-column-span:2}.by-proffosion-3{-ms-grid-row:1;-ms-grid-column:2}}.by-proffosion-4{-ms-grid-row:1;-ms-grid-column:4;grid-area:prof4}.proffosions{display:-ms-grid;display:grid;grid-template-areas:'prof1 prof2 prof3 prof4';-ms-grid-columns:25%;grid-template-columns:25%;-ms-grid-rows:100%;grid-template-rows:100%;width:1250px;height:auto}.by-proffosion-2{display:-ms-grid;display:grid;-ms-grid-rows:50% 50%;grid-template-rows:50% 50%;-ms-grid-columns:100%;grid-template-columns:100%;grid-template-areas:'prof2-1' 'prof2-2'}div[class*=by-proffosion]{height:100%;margin:0;padding:0}div[class*=by-proffosion] ul{width:100%;height:100%;margin:0;padding:0;float:left}div[class*=by-proffosion] ul li{margin-top:3%;list-style-type:none;width:80%}footer{padding:50px;background-color:#00e676;margin-top:1%}.icons{width:auto;height:auto}.footer-copyright{background-color:#0c5460;height:auto}.Formum-Help-TopResume{width:100%;height:80px;background-color:#fff}.Three-set-div{margin-right:auto;margin-left:auto;width:1250px;height:100%;background-color:orange}.Three-set-div,.Three-set-div>div{-webkit-box-sixing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}@media screen and (max-width:1300px){.search-container input[type=text]{width:350px}.topnav,.under-float,.undersection{width:1000px}.topnav{-ms-grid-columns:1fr 3fr 1.5fr;grid-template-columns:1fr 3fr 1.5fr;height:auto}.fitters{display:none}.half-undersection{width:70%}.half-undersection-fomAndIndicator{width:29%}.form{width:100%}.formSet{width:95%}.MainSelects,.proffosions{width:1000px}.proffosions{display:-ms-grid;display:grid;grid-template-areas:'prof1 prof2 prof3';-ms-grid-columns:33.333% 33.333% 33.333%;grid-template-columns:33.333% 33.333% 33.333%}div[class=by-proffosion-4]{display:none}.Main-companyAndVacotion{display:-ms-grid;display:grid;grid-template-areas:'left-main right-main';-ms-grid-columns:33.333% 66.677%;grid-template-columns:33.333% 66.677%}.right-lists-of-company{display:-ms-grid;display:grid;-ms-grid-columns:50%;grid-template-columns:50%;-ms-grid-rows:50%;grid-template-rows:50%;grid-template-areas:"col_com-1 col_com-2" "col_com-3 col_com-3";width:100%;height:auto}.right-list-of-company-column_3{display:-ms-grid;display:grid;grid-template-areas:"ul1 ul2";-ms-grid-rows:100%;grid-template-rows:100%;-ms-grid-columns:50%;grid-template-columns:50%}.header-word{margin-right:10%}}@media screen and (max-width:1020px){.WordAndSelectsUnder,.search-container form{margin-block-start:none;float:right;margin-bottom:0;margin-block-end:none}.half-undersection-fomAndIndicator,.mini-search input[type=text]{display:none}.header,.proffosions,.topnav{height:auto}.topnav{width:688px;-ms-grid-columns:1.5fr 4fr 1fr;grid-template-columns:1.5fr 4fr 1fr;-ms-grid-rows:.2fr .1fr;grid-template-rows:.2fr .1fr;grid-template-areas:"brand SC SC" "WAS WAS WAS"}.by-proffosion-2,.proffosions{-ms-grid-columns:50% 50%;grid-template-columns:50% 50%}.search-container input[type=text]{width:325px}.WordsAndSelects{width:100%;margin-left:0}.WordAndSelectsUnder{-webkit-margin-before:0;-webkit-margin-after:0;margin-top:0}.search-container form{-webkit-margin-before:none;-webkit-margin-after:none}.brand a{margin-bottom:0}.under-float,.undersection{width:690px}.half-undersection{width:100%}.MainSelects{width:690px}.by-proffosion-2{display:-ms-grid;display:grid;-ms-grid-rows:100%;grid-template-rows:100%;grid-template-areas:'prof2-1 prof2-2'}.proffosions{display:-ms-grid;display:grid;width:auto;grid-template-areas:'prof1  prof3' 'prof2  prof2';-ms-grid-rows:50% 50%;grid-template-rows:50% 50%}.left-main{width:100%;border-bottom:1px solid gray}.left-list-of-company{display:-ms-grid;display:grid;-ms-grid-columns:50%;grid-template-columns:50%;grid-template-areas:'item1 item2';width:100%;height:auto;float:left}.Main-companyAndVacotion{display:-ms-grid;display:grid;grid-template-areas:'left-main' 'right-main';-ms-grid-columns:100% 100%;grid-template-columns:100% 100%}.right-main{margin-top:3%;border-left:1px solid gray}.brand-section{-webkit-margin-after:0;margin-block-end:none}}*/
 </style>
+
 
 <script>
 
